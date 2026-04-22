@@ -1,34 +1,93 @@
-<!DOCTYPE html>
-<html>
-  <h1> Actividad Guiada</h1>
-  <br>
-  <br>
-  <body>
-    <h3>¿Cuántas veces se deben cepillar los dientes ak día?</h3>
-    <br>
-    <h3>Al menos 3 veces al día</h3>
-    <br>
-    <h3>¿Cuáles son las tecnicas de cepillado?</h3>
-    <h4>La tecnica de cepillado mas recomendada es la Bass,
-    que consiste en colocar el cepillo en 45* respecto a la encía,
-    realizand movimientos vibratorios suaves para limpiar el surco gingival</h4>
-    <br>
-    <h3>Agrega una imagen de una persona cepillandose los dientes</h3>
-    <img src="dientes.jpeg" width="200"; height="200";>
-    <br>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/DNA82YjdeQc?si=oDd3_gyJ3307B5CL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <br>
-    <br>
+¡DOCTYPE HTML
+<HTML lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Juan Luis</title>
     <style>
-      p {
-        color: Red;
-        font-size:40px;}
-      h3 {
-        color: Green;
-        font-size: 40px;}
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: o;
+            
+            background-image: url(https://cdn.shortpixel.ai/spai2/q_lossy+ret_img+to_webp/www.makeafort.fun/wp-content/uploads/2020/07/Depositphotos_211041408_ds-3000x2000-1-scaled.jpg);
+            background-size: cover ;
+            background-position: center;
+            background-attachment: fixed;
+            color: black;
+        }
+        .overlay{
+            background-color: white;
+            padding: 20px;
+
+        }
+        h1 {
+            text-align: center;
+            color: rgb(61, 27, 2);
+            font-size: 40px;
+        }
+        h2 {
+            text-align: center;
+            color: rgb(129, 58, 7);
+        }
+        p {
+            text-align: center;
+            font-size: 18px;
+        }
+        section {
+            margin: 40px 0;
+        }
+        .contenedor {
+            display: flex;
+            justify-content: space-around;
+            gap: 20px;
+        }
+        .card {
+            background-color: white;
+            padding: 20px;
+            width: 30%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .media {
+            display: block;
+            margin: 20px auto;
+        }
     </style>
-    <p>Una boca sana, una sonrisa que encanta.</p>
-    <br>
-    <audio src="Cancion_Cepillado.mpeg"></audio>
-  </body>
+</head>
+<body>
+    <div class="overlay">
+        <h1> Edad de adulto, latidos de niño</h1>
+        <section>
+            <h2>El error más grande que nos enseñaron</h2>
+            <p>
+                Cuando eramos pequeños, nadie tenía que explicarnos que era soñar. <br>
+                Lo hacíamos de forma natural. <br>
+                Queríamos ser astronautas, cocineros o bailarines sin importar lo dificil que pareciera<br><br><br>
+                Pero crecimos y el mundo nos fue diciendo:<br>
+                <i>"Ya no estas en las nubes"</i><br><br><br>
+                y muchos <b>lo creyeron</b>
+            </p>
+        </section>
+        <section>
+            <p style="color: red;">Soñar no es un lujo de niños</p><br>
+        </section>
+        <section>
+            <h2>Cuando era pequeño, yo quería ser...</h2>
+            <img src="piloto.jpg">
+            <p><b>Piloto de avión</b></p>
+        </section>
+        <section>
+            <h2>El sonido que me relajaba era...</h2>
+            <audio controls class="media">
+                <source src="crickets.mp3">
+            </audio>
+        </section>
+        <section>
+            <h2>Mi caricatura favorita era...</h2>
+            <video width="400" controls class="media">
+                <source src="steven.mp4">
+            </video>
+        </section>
+    </div>
+</body>
 </html>
